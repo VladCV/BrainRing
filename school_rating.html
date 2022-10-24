@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Ring</title>
+    <link rel="stylesheet" href="css/lib.min.css">
+<link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/school_rating.css">
+</head>
+
+<body class="rating">
+    <div class="wrapper">
+
+        <div class="background-layer">
+            <div class="bg-clouds">
+                <img src="img/cloud.svg" alt="" class="bg-clouds__cloud-1">
+                <img src="img/cloud2.svg" alt="" class="bg-clouds__cloud-2">
+            </div>
+            <div class="bg-children-goblet">
+                <img class="bg-children__boy wow pulse" src="img/rating__boy-on-books.svg" alt="">
+                <img class="bg-children__girl wow pulse" src="img/rating__girl-on-books.svg" alt="">
+                <img class="bg-children__goblet wow pulse" data-wow-delay=".5s" src="img/bg_goblet.png" alt="">
+                <img class="bg-children__earth wow pulse" data-wow-delay=".5s" src="img/bg_earth.svg" alt="">
+                <img class="bg-children__kite wow pulse" src="img/kite.png" alt="">
+            </div>
+            <div class="bg-grass">
+                <img src="img/background/bg_grass.svg" alt="">
+            </div>
+        </div>
+
+        <section class="container">
+            <!-- ---------------------------------------------------- -->
+            <!--              _____HEADER START______                 -->
+            <!-- ---------------------------------------------------- -->
+            <!-- SPRITE.SVG -->
+
+<header class="header hidden wow fadeInDown" data-wow-duration="0.5s">
+
+    <a class="logo" href="/">
+        <img class="logo__img" src="img/logo.png" alt="">
+    </a>
+    
+    <nav class="header__menu">
+        <ul class="header__list">
+
+            <li class="headre__item">
+                <a href="#" class="header__link header__link-orange">
+                    <div>
+                        
+                        <img src="img/icons/icon_speaker-white.png" alt="" class="header__loudSpeaker-img">
+                            
+                    </div>
+                    Новости конкурса
+                </a>
+            </li>
+            <li class="headre__item">
+                <a href="#" class="header__link header__link-blue">
+                    <div>
+                        <img src="img/icons/icon__goblet-white.png" alt="" class="header__goblet-img">                        
+                    </div>
+                    О конкурсе
+                </a>
+            </li>
+            <li class="headre__item">
+                <a href="#" class="header__link header__link-pink">
+                    <div>
+
+                    <img src="img/icons/icon_speaker-white.png" alt="" class="header__loudSpeaker-img">
+                        
+
+                    </div>
+                    Демо версия
+                </a>
+            </li>
+            <li class="headre__item">
+                <a href="#" class="header__link header__link-green">
+                    <div class="">
+                            <img src="img/icons/icon__goblet-white.png" alt="" class="header__goblet-img">
+                    </div>
+                    Контакты
+                </a>
+            </li>
+    
+        </ul>
+    </nav>
+    <a href="#" class="header__button">Учавствовать</a>
+
+    <div class="header__burger">
+        <span></span>
+    </div>
+
+</header>
+            <!-- ---------------------------------------------------- -->
+            <!--              _____HEADER END______                   -->
+            <!-- ---------------------------------------------------- -->
+            <div class="wrapper-content">
+                <!-- ---------------------------------------------------- -->
+                <!--              _____ASIDE START______                  -->
+                <!-- ---------------------------------------------------- -->
+                <section class="aside">
+ 
+<form class="aside-main__form aside__item hidden wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+    <a href="#" class="aside__link">
+        
+        <img src="img/icons/icon_speaker-blue.png" alt="" class="aside__link__loudSpealer-img">
+        Вход для учителей
+    </a>
+
+    <label>
+        <span>Ваша электронная почта</span> 
+        <input type="email" name="user_mail">
+    </label>
+
+    <label>
+        <span>Ваш пароль</span> 
+        <input type="password" name="user_password">
+    </label>
+
+    <button class="button_global" type="submit">Войти</button>
+
+    <div class="aside-main__box-link">
+        <a href="#">Забыли пароль?</a>
+        <a href="#">Регистрация?</a>
+    </div>
+</form>
+
+<div class="aside__link-box aside__item hidden wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.13s">
+
+    <a href="#" class="aside__link">
+        <img src="img/icons/icon_speaker-blue.png" alt="" class="aside__link__loudSpealer-img">
+        Междунар. реультаты
+    </a>
+    <a href="#" class="aside__link">
+        <img src="img/icons/icon_speaker-blue.png" alt="" class="aside__link__loudSpealer-img">
+        Результаты по школам
+    </a>
+    <a href="#" class="aside__link">
+        <img src="img/icons/icon_speaker-blue.png" alt="" class="aside__link__loudSpealer-img">
+        Отзывы
+    </a>
+
+</div>
+
+<div class="aside__link-box aside__item hidden wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.19s">
+
+    <div class="aside__rating">
+
+        <div class="aside__rating-stars">
+
+            <img src="img/icons/icon_star-grey.png" alt="" class="aside__rating-stars__star-img">
+            <img src="img/icons/icon_star.png" alt="" class="aside__rating-stars__star-img">
+            <img src="img/icons/icon_star.png" alt="" class="aside__rating-stars__star-img">
+            <img src="img/icons/icon_star.png" alt="" class="aside__rating-stars__star-img">
+            <img src="img/icons/icon_star.png" alt="" class="aside__rating-stars__star-img">
+                
+        </div>
+
+        <div class="aside__rating-title">
+            <span class="aside__rating-number">74</span>
+            <span class="aside__rating-max-number">100</span>
+        </div>        
+
+    </div>
+    <a href="#" class="aside__link">            
+        <img src="img/icons/icon_vk-logo.png" alt="Vk" class="aside__link__vk-img">
+        Мы в ВКонтакте
+    </a>
+
+</div>
+    
+</section>
+                <!-- ---------------------------------------------------- -->
+                <!--              _____ASIDE END______                    -->
+                <!-- ---------------------------------------------------- -->
+
+
+
+
+                <!-- ---------------------------------------------------- -->
+                <!--              _____CONTENT START______                -->
+                <!-- ---------------------------------------------------- -->
+                <div class="content-background">
+                    <div class="rating__content">
+                        <div class="rating__banner wow fadeIn">
+                            <span>
+                                <h2>School</h2>
+                                <p>rating</p>
+                            </span>
+                        </div>
+                        <div class="rating__filter-search">
+                            <div class="content__form-box content__form-registration-step wow flipInY">
+                                <label>
+                                    <span>Конкурс:</span>
+                                    <div class="select">
+                                        <select name="">
+                                            <option value="1">English</option>
+                                            <option value="2">History</option>
+                                            <option value="3">Computing</option>
+                                        </select>
+                                    </div>
+                                </label>
+                                <label>
+                                    <span>Выберите субъект федерации:</span>
+                                    <div class="select">
+                                        <select name="">
+                                            <option value="1">London school</option>
+                                            <option value="2">Республика Крым</option>
+                                            <option value="3">Республика Дагестан</option>
+                                        </select>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="rating__filter-search__add-info add-bg-protractor wow fadeInRight">
+                                <p>Школы отсортированы по количеству полученных дипломов.</p>
+                                <p><span>*</span>Для поиска школы нажмите <span class="bolder-p">Ctrl+F</span> и введите
+                                    ключевое слово (город, улицу, название школы).</p>
+                            </div>
+                        </div>
+                        <div class="rating__rate-table-wrapper">
+                            <div class="rating__rate-table add-bg-pencils">
+                                <div class="rating__rate-table__header-p">#</div>
+                                <div class="rating__rate-table__header-p">Школа</div>
+                                <div class="rating__rate-table__header-p">Дипломы</div>
+                                <div class="rating__rate-table__header-p">Участий</div>
+                                <div class="rating__rate-table__header-p">%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">1.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МАОУ Лицей №23</p>
+                                    <p class="rating__rate-table__school__add">Пашкова Ирина Владимировна</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">2.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МОУ СШ №30 им. Медведева С.Р.</p>
+                                    <p class="rating__rate-table__school__add">Волгоградская обл., г. Волжский, пр-кт
+                                        Дружбы д. 65, 404105</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">3.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">ОГАОУ многопрофильный лицей №20</p>
+                                    <p class="rating__rate-table__school__add">Ульяновская обл., г. Ульяновск, б-р
+                                        Новосондецкий д. 4, 432072</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">4.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МАОУ Лицей №23</p>
+                                    <p class="rating__rate-table__school__add">Пашкова Ирина Владимировна</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">5.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МОУ СШ №30 им. Медведева С.Р.</p>
+                                    <p class="rating__rate-table__school__add">Волгоградская обл., г. Волжский, пр-кт
+                                        Дружбы д. 65, 404105</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">6.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">ОГАОУ многопрофильный лицей №20</p>
+                                    <p class="rating__rate-table__school__add">Ульяновская обл., г. Ульяновск, б-р
+                                        Новосондецкий д. 4, 432072</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">7.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МАОУ Лицей №23</p>
+                                    <p class="rating__rate-table__school__add">Пашкова Ирина Владимировна</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">8.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МОУ СШ №30 им. Медведева С.Р.</p>
+                                    <p class="rating__rate-table__school__add">Волгоградская обл., г. Волжский, пр-кт
+                                        Дружбы д. 65, 404105</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">9.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">ОГАОУ многопрофильный лицей №20</p>
+                                    <p class="rating__rate-table__school__add">Ульяновская обл., г. Ульяновск, б-р
+                                        Новосондецкий д. 4, 432072</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">10.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МАОУ Лицей №23</p>
+                                    <p class="rating__rate-table__school__add">Пашкова Ирина Владимировна</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">11.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МОУ СШ №30 им. Медведева С.Р.</p>
+                                    <p class="rating__rate-table__school__add">Волгоградская обл., г. Волжский, пр-кт
+                                        Дружбы д. 65, 404105</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">12.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">ОГАОУ многопрофильный лицей №20</p>
+                                    <p class="rating__rate-table__school__add">Ульяновская обл., г. Ульяновск, б-р
+                                        Новосондецкий д. 4, 432072</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">13.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МАОУ Лицей №23</p>
+                                    <p class="rating__rate-table__school__add">Пашкова Ирина Владимировна</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">14.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МОУ СШ №30 им. Медведева С.Р.</p>
+                                    <p class="rating__rate-table__school__add">Волгоградская обл., г. Волжский, пр-кт
+                                        Дружбы д. 65, 404105</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">15.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">ОГАОУ многопрофильный лицей №20</p>
+                                    <p class="rating__rate-table__school__add">Ульяновская обл., г. Ульяновск, б-р
+                                        Новосондецкий д. 4, 432072</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">16.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МАОУ Лицей №23</p>
+                                    <p class="rating__rate-table__school__add">Пашкова Ирина Владимировна</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">17.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">МОУ СШ №30 им. Медведева С.Р.</p>
+                                    <p class="rating__rate-table__school__add">Волгоградская обл., г. Волжский, пр-кт
+                                        Дружбы д. 65, 404105</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+
+                                <div class="rating__rate-table__number wow fadeIn">18.</div>
+                                <div class="rating__rate-table__school wow fadeIn">
+                                    <p class="rating__rate-table__school__sch">ОГАОУ многопрофильный лицей №20</p>
+                                    <p class="rating__rate-table__school__add">Ульяновская обл., г. Ульяновск, б-р
+                                        Новосондецкий д. 4, 432072</p>
+                                </div>
+                                <div class="rating__rate-table__diploma wow fadeIn">1662</div>
+                                <div class="rating__rate-table__participents wow fadeIn">1719</div>
+                                <div class="rating__rate-table__percentage wow fadeIn">97%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------- -->
+                <!--              _____CONTENT END______                  -->
+                <!-- ---------------------------------------------------- -->
+
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/lib.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
